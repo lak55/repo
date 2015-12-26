@@ -1,0 +1,30 @@
+---
+title: "Practical Machine Learning - Course Project"
+author: "lak55"
+---
+
+## Synopsis
+
+
+## Loading and preprocessing the data
+
+1. Load the libraries 
+
+```{r}
+library(pROC)
+library(caret)
+library(kernlab)
+library(ggplot2)
+library(rpart)
+library(rpart.plot)
+library(RColorBrewer)
+```
+
+2. Load the data
+
+```{r}
+trainData <- read.csv("C:\\Users\\Mardi\\ds2015\\repo\\pml-training.csv",header=TRUE, sep = ",")
+testData <- read.csv("C:\\Users\\Mardi\\ds2015\\repo\\pml-testing.csv",header=TRUE, sep = ",")
+```
+
+
